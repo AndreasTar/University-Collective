@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "autograding",
+      "setup": "javac -cp munit.jar Lab01Test.java",
+      "run": "java -jar munit.jar lab01.asm Lab01Test.class",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
